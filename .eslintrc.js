@@ -1,22 +1,32 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es6": true
-    },
-    "extends": [
-      
-    ],
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaVersion": 2018
-    },
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    "rules": {
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true
     }
+  },
+  settings: {
+    react: {
+      version: "detect"
+    }
+  },
+  extends: [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  rules: {
+    '@typescript-eslint/no-var-requires': 0,
+  },
+  overrides: [
+    {
+        "files": ["**/*.tsx"],
+        "rules": {
+            "react/prop-types": "off"
+        }
+    }
+  ]
 };

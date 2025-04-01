@@ -39,8 +39,6 @@ I highly encourage you to help improve this package further through the followin
 
 This package was created by [Blake Sanie](https://github.com/blakesanie) in 2020.
 
-Like what you see? [View his other projects 📱 ](https://blakesanie.com/cs), [read his blog 💻 ](https://blakesanie.medium.com), or [buy him a coffee ☕](https://paypal.me/blakesanie?locale.x=en_US).
+Like what you see? [View his other projects 📱](https://blakesanie.com/cs), [read his blog 💻](https://blakesanie.medium.com), or [buy him a coffee ☕](https://paypal.me/blakesanie?locale.x=en_US).
 
 ## License
-
-MIT © [blakesanie](https://github.com/blakesanie)
